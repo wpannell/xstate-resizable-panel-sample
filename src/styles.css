@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.handle:hover {
+  /* background: rgb(9, 113, 241); */
+  background: red;
+}
+
+.handle {
+  transition: background 0.1s ease;
+}
